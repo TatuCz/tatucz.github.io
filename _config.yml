@@ -12,7 +12,7 @@
 #    `--'   `----''--'   '--' `--'
 
 
-
+host : 0.0.0.0
 
 ## => Site Settings
 ##############################
@@ -179,8 +179,11 @@ analytics:
 
 ## => Build
 ##############################
-markdown    : kramdown
-highlighter : rouge
+#markdown    : kramdown
+#highlighter : rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 permalink   : date
 
 exclude:
