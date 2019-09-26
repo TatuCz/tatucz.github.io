@@ -94,7 +94,7 @@ CREATE TABLE `t_order_item_1` (
 ```
 
 ## 二、加入maven依赖
-```
+```xml
 <properties>
         <sharding-sphere.version>4.0.0-RC1</sharding-sphere.version>
     </properties>
