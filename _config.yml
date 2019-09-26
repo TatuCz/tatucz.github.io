@@ -179,11 +179,8 @@ analytics:
 
 ## => Build
 ##############################
-#markdown    : kramdown
-#highlighter : rouge
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+markdown    : kramdown
+highlighter : rouge
 permalink   : date
 
 exclude:
