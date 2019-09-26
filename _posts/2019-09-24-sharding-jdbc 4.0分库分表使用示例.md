@@ -27,7 +27,7 @@ ds_1 --- t_order_0
 
 SQL语句:
 
-```SQL
+```sql
 CREATE DATABASE `ds_0` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
 CREATE DATABASE `ds_1` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
 
@@ -124,7 +124,7 @@ CREATE TABLE `t_order_item_1` (
 
 # 代码
 
-```Java
+```java
 public class TestSJdbc4 {
     public static void main(String[] args) throws SQLException {
         // 配置真实数据源
